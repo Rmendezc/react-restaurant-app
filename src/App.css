@@ -124,7 +124,7 @@ button {
 }
 
 
-form, .comfirm{
+form, .confirm{
   padding: 10px 13%;
 }
 
@@ -155,7 +155,7 @@ input, label{
 
 }
 
-.comfirm span{
+.confirm span{
   color: blue;
 }
 
@@ -279,7 +279,7 @@ footer ul li{
     display: none;
   }
 
-  form, .comfirm{
+  form, .confirm{
     padding: 10px 8%;
   }
 
