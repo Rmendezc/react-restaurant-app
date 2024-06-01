@@ -1,6 +1,6 @@
-import React , { useState } from 'react';
+import React, { useState } from 'react';
 
-const BookingForm = () => {
+const BookingForm = (props) => {
     const [date, setDate] = useState("");
     const [times, setTimes] = useState("");
     const [guests, setGuests] = useState("");
@@ -55,7 +55,7 @@ const BookingForm = () => {
                         </div>
 
                         <div className='btnReceive'>
-                            <input aria-label='On Click' type='submit' value={"Make your Reservation"}/>
+                            <input aria-Label='On Click' type='submit' value={"Make Your Reservation"}/>
                         </div>
 
                     </fieldset>
